@@ -1,0 +1,108 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, .row{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.preview-box{
+    width:430px;
+    height:275px;
+    float: left;
+    margin-top:350px;
+    margin-left: 60px;
+}
+
+.movie-title-bar{
+    width:372px;
+    height:42px;
+    float:left;   
+    color:rgb(255,255,255);
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+    height: 45px;
+}
+
+.add-icon-block{
+    width:40px;
+    height:40px;
+    float:left;
+    background-position:center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top:35px;
+}
+
+.mini-text-block{
+    width:315px;
+    height:75px;
+    float:left;
+    margin-left: 15px;
+    margin-top: -60px;
+    color:rgb(255,255,255);
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.star-ratings-block{
+    width:145px;
+    height:20px;
+    float:left;
+    margin-top: 70px;
+    margin-left:15px;
+}
+
+.star-one{
+    width: 17px;
+    height: 17px;
+    background-image: url(../assets/Logo\ &\ UI/full-star-01.svg);
+    background-position:center;
+    background-size: cover;
+    float: left;
+}
+
+.star-two{
+    width: 17px;
+    height: 17px;
+    background-image: url(../assets/Logo\ &\ UI/full-star-01.svg);
+    background-position:center;
+    background-size: cover;
+    float: left;
+    margin-left:12px;
+}
+
+.star-three{
+    width: 17px;
+    height: 17px;
+    background-image: url(../assets/Logo\ &\ UI/full-star-01.svg);
+    background-position:center;
+    background-size: cover;
+    float: left;
+    margin-left:12px;
+}
+
+.star-four{
+    width: 17px;
+    height: 17px;
+    background-image: url(../assets/Logo\ &\ UI/full-star-01.svg);
+    background-position:center;
+    background-size: cover;
+    float: left;
+    margin-left:12px;
+}
+
+.star-five{
+    width: 17px;
+    height: 17px;
+    background-image: url(../assets/Logo\ &\ UI/empty-star-01.svg);
+    background-position:center;
+    background-size: cover;
+    float: left;
+    margin-left:12px;
+}

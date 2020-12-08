@@ -1,0 +1,1115 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, .row{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+ background-color: lightblue;
+ margin: 0%;
+ padding: 0%;
+ font-family: "Myanmar Text";
+ overflow: hidden;
+}
+
+@media only screen and (max-width: 576px){
+    .navbar{
+        height: 61px;
+    }
+}
+
+.navbar-logo{
+    width: 383px;
+    height: 91px;
+    
+    margin-left: 6.8%;
+    
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .navbar-logo{
+        width: 374px;
+        height: 91px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .navbar-logo{
+        width: 182px;
+        height: 46px;
+    }
+}
+
+
+
+.navbar-nav{
+    font-family: "MADE Evolve Sans EVO Medium";
+}
+
+
+
+
+
+.navbar-nav > .active > a {
+    text-decoration: underline;
+    color: #C7DCF5!important;
+}
+
+
+.user-name{
+    width: 158px;
+    height: 33px;
+    
+    margin-right: 1%;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+    .user-name {
+        
+        display:none;
+        
+    }
+}
+
+.user-name p{
+    text-align: right;
+    font-family: "Myanmar Text";
+    color: #FFFFFF;
+    margin-top: 6pt;
+}
+
+.user-pic{
+    width: 87px;
+    height: 87px;
+    background-color: #88899B;
+    border-radius: 50%;
+
+}
+@media only screen and (max-width: 992px){
+    .user-pic{
+        width: 52px;
+        height: 52px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .user-pic{
+        width: 28px;
+        height: 28px;
+    }
+}
+.user-icon{
+    width: 60px; 
+    margin-left: 10.5pt;
+    margin-top: 7pt;
+}@media only screen and (max-width: 992px){
+    .user-icon{
+        width: 32px;
+        margin-left: 7.5pt;
+        margin-top: 5pt;
+        
+    }
+}
+@media only screen and (max-width: 576px){
+    .user-icon{
+        width: 18px;
+        margin-left: 3.5pt;
+        margin-top: 2.5pt;
+    }
+}
+
+
+
+
+
+.header{
+    background-color:  #6F72A9;
+    height: 100pt;
+    
+}
+@media only screen and (max-width: 992px){
+    .header{
+        height: 87pt;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .header{
+        height: 47pt;
+    }
+}
+
+
+
+
+
+/*The search holder*/
+.header3{
+    height: 40pt;
+    background-color: #6F72A9;
+    margin: 0%;
+    padding: 0%;
+}
+
+@media only screen and (max-width: 992px){
+    .header3{
+        height: 40pt;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .header3{
+        height: 23pt;
+    }
+}
+
+.search-box{
+    height: 80%;
+   width: 100%;
+    margin-left: 7.5%;
+}
+
+
+
+
+
+
+
+
+.header2{
+    height: 880px;
+    background-color: goldenrod;
+    position: relative;
+    background-image: url(../img/studyofdista\ \(1\).jpg);
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+@media only screen and (max-width: 992px){
+    .header2{
+        height: 320pt;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .header2{
+        height: 170pt;
+    }
+}
+
+.slider-container{
+    width: 100%;
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+  
+}
+.movie-poster{
+    display: flex;
+    justify-content: center;
+    max-width: 99.1%;
+    
+    object-fit: contain;
+    position: absolute;
+    
+}@media only screen and (max-width: 992px){
+    .movie-poster{
+      
+        max-width: 98%;
+        
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .movie-poster{
+        max-width: 96%;
+       
+        
+    }
+}
+
+.titel-container{
+    height: 70px;
+    margin-top: 10%;
+    margin-left: 7%;
+    position: absolute;
+    padding: 0%;
+    
+}
+@media only screen and (max-width: 992px){
+    .titel-container{
+        height: 71px;
+        margin-top: 109px;
+        
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .titel-container{
+        height:47px;
+        margin-top: 0%;
+        
+    }
+}
+.titel-container h1{
+    color: #FFFFFF;
+    font-family: "MADE Evolve Sans EVO";
+    font-size: 85px;
+    text-shadow: 2px 2px 4px #707070;
+    position: absolute;
+}@media only screen and (max-width: 992px){
+    .titel-container h1{
+        font-size: 35pt;
+        
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .titel-container h1{
+        height:47px;
+        margin-top: 76px;
+        font-size: 20pt;
+        
+    }
+}
+
+.text-container{
+    height: 153px;
+    margin-top: 24%;
+    margin-left: 6.4%;
+    position: absolute;
+    
+}@media only screen and (max-width: 576px){
+    .text-container{
+        margin-top: 31%;
+        margin-left: 3.4%;
+        
+    }
+}
+
+
+.text-container h3{
+    color: #FFFFFF;
+    font-size: 27px;
+    line-height: 41px;
+    text-shadow: 1px 1px 2px #707070;
+    position: absolute;
+}@media only screen and (max-width: 992px){
+    .text-container h3{
+        font-size: 16px;
+        line-height: 25px;
+        
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .text-container h3{
+        font-size: 9px;
+        line-height: 14px;
+        
+    }
+}
+
+.watch-button-container{
+    height: 88px;
+    margin-top: 41%;
+    margin-left: 7%;
+    background-color: #B4C1E1;
+    border-radius: 50pt;
+    box-shadow: 4px 4px 8px #707070;
+    padding-top: 15pt;
+    position: absolute;
+}
+@media only screen and (max-width: 992px){
+    .watch-button-container{
+        height: 45px;
+        padding-top: 1%;
+        margin-top: 42%;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .watch-button-container{
+        height: 27px;
+       margin-top: 45%;
+    }
+}
+.watch-button-text{
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    padding-left: 30%;
+}@media only screen and (max-width: 992px){
+    .watch-button-text{
+        padding-left: 16.5%;
+        
+    }
+}@media only screen and (max-width: 576px){
+    .watch-button-text{
+        padding-left: 10%;
+    }
+}
+.watch-button-text h4{
+    font-size: 36px;
+    font-family: "MADE Evolve Sans EVO";
+    position: absolute;
+  
+}@media only screen and (max-width: 992px){
+    .watch-button-text h4{
+        font-size: 22px;
+        
+    }
+}@media only screen and (max-width: 576px){
+    .watch-button-text h4{
+        font-size: 18px;
+    }
+}
+
+.watch-button-container:hover{
+    background-color: #849BD4;
+    cursor: pointer;
+}
+
+
+
+
+
+.filter{
+    height: 281pt;
+    background-color: teal;
+    position: relative;
+    background-image: url(../img/studyofdista\ \(1\).jpg);
+    
+}
+@media only screen and (max-width: 992px){
+    .filter{
+        height: 161pt;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .filter{
+        height: 109pt;
+    }
+}
+
+.movie-titel-text{
+    height: 70pt;
+    margin-top: 85pt;
+    margin-left: 85pt;
+
+}
+@media only screen and (max-width: 992px){
+    .movie-titel-text{
+        height: 34pt;
+        margin-top: 36pt;
+        margin-left: 48pt;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .movie-titel-text{
+        height: 17pt;
+        margin-top: 20pt;
+        margin-left: 30pt;
+    }
+}
+.movie-titel-text h2{
+    font-family: "MADE Evolve Sans EVO";
+    font-size: 55pt;
+    color: #FFFFFF;
+}@media only screen and (max-width: 992px){
+    .movie-titel-text h2{
+        font-size: 30pt;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .movie-titel-text h2{
+        font-size: 17pt;
+    }
+}  
+
+.filters-container{
+    
+    height: 58pt;
+    margin-left: 85pt;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    
+}
+@media only screen and (max-width: 992px){
+    .filters-container{
+    
+        height: 53pt;
+        margin-left: 50pt;
+       
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .filters-container{
+        height: 39pt;
+        
+        margin-left: 30pt;
+    }
+}
+
+.filters-button-one{
+    width: 16%;
+    height: 100%;
+    float: left;
+    margin-right: 8%;
+    background-color:#B4C1E1;
+    border-radius: 20pt;
+    color:#FFFFFF ;
+    font-family: "MADE Evolve Sans EVO";
+    text-align: center;
+    border:none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+@media only screen and (max-width: 992px){
+    .filters-button-one{
+        height: 53pt;
+        width: 25%;
+        margin-right: 0.5%;
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-one{
+        height: 39pt;
+       
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-one h3{
+        font-size: 12pt;
+       
+       
+    }
+}
+
+.filters-button-genre-container{
+    width: 65pt;
+    height: 23pt;
+    float: left;
+    margin-left: 30%;
+    margin-top: 10.5%;
+    border: none;
+    cursor: pointer;
+    
+
+}
+@media only screen and (max-width: 992px){
+    .filters-button-genre-container{
+        
+        float: left;
+        margin-left: 15%;
+        margin-top: 14%;
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-genre-container{
+        width: 24pt;
+        height: 11pt;
+        float: left;
+        margin-left: 0%;
+        margin-top: 35%;
+        
+       
+    }
+}
+
+.filters-button-genre-container h3{
+    color:#FFFFFF ;
+    font-family: "MADE Evolve Sans EVO";
+    text-align: center;
+    
+    cursor: pointer;
+}@media only screen and (max-width: 992px){
+    .filters-button-genre-container h3{
+        
+        margin-top: 2%;
+
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-genre-container h3{
+        
+        width: 35pt;
+       
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+    .filters-container{
+        height: 39pt;
+        
+        margin-left: 30pt;
+    }
+}
+.filters-button-one:hover, .filters-button-one:focus{
+    background-color: #849BD4;
+    cursor: pointer;
+    
+}
+
+
+  
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightslategray;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  
+/* The search field */
+#myInput {
+    box-sizing: border-box;
+    background-image: url(#);
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* The search field when it gets focus/clicked on */
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+/* The search field */
+#myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+
+  }
+  
+  /* The search field when it gets focus/clicked on */
+  #myInput:focus {outline: 3px solid #ddd;}
+
+
+
+
+
+.filters-button-two{
+    width: 186pt;
+    height: 100%;
+    float: left;
+    margin-right: 6%;
+    background-color:#B4C1E1;
+    border-radius: 20pt;
+    color:#FFFFFF ;
+    font-family: "MADE Evolve Sans EVO";
+    text-align: center;
+    border:none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+@media only screen and (max-width: 992px){
+    .filters-button-two{
+        margin-right: 0%;
+        
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-two h3{
+        font-size: 12pt;
+       
+       
+    }
+}
+.filters-button-release-year-container{
+    width: 130pt;
+    height: 23pt;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10.5%;
+   
+}@media only screen and (max-width: 992px){
+    .filters-button-release-year-container{
+        width: 90pt;
+        float: left;
+        margin-left: 2%;
+        margin-top: 14%;
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-release-year-container{
+        width: 24pt;
+        height: 11pt;
+        float: left;
+        margin-left: 0%;
+        margin-top: 25%;
+       
+    }
+}
+.filters-button-release-year-container h3{
+    color:#FFFFFF ;
+    font-family: "MADE Evolve Sans EVO";
+    text-align: center;
+}@media only screen and (max-width: 992px){
+    .filters-button-release-year-container h3{
+        font-size: 16pt;
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-release-year-container h3{
+        font-size: 10pt;
+        width: 35pt;
+       
+       
+    }
+}
+.filters-button-two:hover{
+    background-color: #849BD4;
+    cursor: pointer;
+}
+
+
+
+
+.filters-button-three{
+    width: 186pt;
+    height: 100%;
+    float: left;
+    margin-right: 6%;
+    background-color:#B4C1E1;
+    border-radius: 20pt;
+    color:#FFFFFF ;
+    font-family: "MADE Evolve Sans EVO";
+    text-align: center;
+}
+@media only screen and (max-width: 992px){
+    .filters-button-three{
+    
+        margin-right: 0.5%;
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-three h3{
+        font-size: 12pt;
+       
+       
+    }
+}
+.filters-button-titel-container{
+    width: 65pt;
+    height: 23pt;
+    float: left;
+    margin-left: 30%;
+    margin-top: 10.5%;
+   
+}@media only screen and (max-width: 992px){
+    .filters-button-titel-container{
+        
+        float: left;
+        margin-left: 15%;
+        margin-top: 14%;
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-titel-container{
+        width: 24pt;
+        height: 11pt;
+        float: left;
+        margin-left: 0%;
+        margin-top: 35%;
+       
+    }
+}
+.filters-button-titel-container h3{
+    color:#FFFFFF ;
+    font-family: "MADE Evolve Sans EVO";
+    text-align: center;
+}@media only screen and (max-width: 992px){
+    .filters-button-titel-container h3{
+        font-size: 16pt;
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-titel-container h3{
+        font-size: 12pt;
+        width: 35pt;
+
+       
+    }
+}
+.filters-button-three:hover{
+    background-color: #849BD4;
+    cursor: pointer;
+}
+
+
+
+.filters-button-four{
+    width: 190pt;
+    height: 100%;
+    float: left;
+    background-color:#B4C1E1;
+    border-radius: 20pt;
+    color:#FFFFFF ;
+    font-family: "MADE Evolve Sans EVO";
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px){
+    .filters-button-four{
+    
+        width: 105pt;
+       
+    }
+}
+@media only screen and (max-width: 576px){
+    .filters-button-four{
+    
+        width: 49pt;
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-four h3{
+        font-size: 11pt;
+       
+       
+    }
+}
+.filters-button-imdb-container{
+    width: 65pt;
+    height: 23pt;
+    float: left;
+    margin-left: 30%;
+    margin-top: 10.5%;
+   
+}@media only screen and (max-width: 992px){
+    .filters-button-imdb-container{
+        
+        float: left;
+        margin-left: 20%;
+        margin-top: 14%;
+       
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-imdb-container{
+        width: 24pt;
+        height: 11pt;
+        float: left;
+        margin-left: 15%;
+        margin-top: 27%;
+        
+    }
+}
+
+.filters-button-imdb-container h3{
+    color:#FFFFFF ;
+    font-family: "MADE Evolve Sans EVO";
+    text-align: center;
+    
+}@media only screen and (max-width: 992px){
+    .filters-button-imdb-container h3{
+        font-size: 16pt;
+    }
+}@media only screen and (max-width: 576px){
+    .filters-button-imdb-container h3{
+       
+        width: 35pt;
+       
+    }
+}
+.filters-button-four:hover{
+    background-color: #849BD4;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.movies{
+    height: 3696pt;
+    background-image: url(../img/Body\ background.png);
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+@media only screen and (max-width: 992px){
+    .movies{
+        height: 3005pt;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .movies{
+        height: 2832pt;
+    }
+}
+
+.movie-poster-box{
+    margin-left: 100pt;
+    
+    float:left ;
+}
+@media only screen and (max-width: 992px){
+    .movie-poster-box{
+        margin-left: 0pt;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .movie-poster-box{
+        margin-left: 0pt;
+    }
+}
+
+.link-text{
+    color: #000;
+}
+.movie-card-box{
+    height: 426pt;
+    margin-top: 61pt;
+    float:left ;
+    overflow: hidden;
+    float: left;
+   
+   border-radius: 27px 27px 27px 46px;
+    
+}@media only screen and (max-width: 992px){
+    .movie-card-box{
+        height: 290pt;
+        margin-top: 26pt;
+        border-radius: 27px 27px 27px 36px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .movie-card-box{
+        
+       height: 195pt;
+       margin-top: 15pt;
+       border-radius: 27px 27px 27px 47px;
+    }
+}
+
+.movie-card{
+    width: 100%;
+    height: 100%;
+    
+    float:left ;
+    border-radius: 27pt;
+   
+}@media only screen and (max-width: 992px){
+    .movie-card{
+        
+    }
+}@media only screen and (max-width: 576px){
+    .movie-card{
+        width: 100%;
+        border-radius: 20pt;
+    }
+}
+.movie-poster-container{
+    height: 100%;
+    position: absolute;
+    
+    border-radius: 27px 27px 0px 0px;
+}@media only screen and (max-width: 992px){
+    .movie-poster-container{
+        width: 100%;
+    }
+}@media only screen and (max-width: 576px){
+    .movie-poster-container{
+        width: 100%;
+    }
+}
+
+.movie-poster-cover{
+    width: 105%;
+    height: 343pt;
+    background-color: rgb(0, 0, 0, 10%);
+    border-radius: 27px 27px 0px 0px;
+    padding-top: 3%;
+    position: relative;
+}@media only screen and (max-width: 992px){
+    .movie-poster-cover{
+        height: 209pt;
+    }
+}@media only screen and (max-width: 576px){
+    .movie-poster-cover{
+        height: 139pt;
+        width: 110%;
+    }
+}
+.movie-poster-cover:hover{
+    background-color: rgb(0, 0, 0, 0%);
+    cursor: pointer;
+}
+
+.add-to-wishlist-button{
+    width: 60pt;
+    height: 55pt;
+    background-color: #AAA7D2;
+    border-radius: 17pt;
+    margin-left: 69%;
+    position: relative;
+}@media only screen and (max-width: 992px){
+    .add-to-wishlist-button{
+        margin-left: 59%;
+
+    }
+}@media only screen and (max-width: 576px){
+    .add-to-wishlist-button{
+        width: 45pt;
+        height: 40pt;
+    }
+}
+
+.wishlist-icon{
+    width: 40pt;
+    margin-left: 15%;
+    margin-top: 15%;
+}@media only screen and (max-width: 576px){
+    .wishlist-icon{
+        width: 28pt;
+        margin-left: 17%;
+        
+    }
+}
+.add-to-wishlist-button:hover{
+    background-color: #849BD4;
+    cursor: pointer;
+}
+
+.movie-details{
+    width: 105%;
+    height: 85pt;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 27px 27px ;
+    position: relative;
+    padding-top: 5%;
+}@media only screen and (max-width: 576px){
+    .movie-details{
+        height: 57pt;
+        width: 111%;
+      
+    }
+}
+.movie-name{
+   overflow: hidden;
+    width: 100%;
+    height: 40%;
+    
+    
+}@media only screen and (max-width: 576px){
+    .movie-name{
+        height: 50%;
+    }
+}
+
+.movie-name h2{
+  font-family: "Myanmar Text";
+  text-align: center;
+  font-size: 28px;
+}@media only screen and (max-width: 992px){
+    .movie-name h2{
+        font-size: 20px;
+
+    }
+}@media only screen and (max-width: 576px){
+    .movie-name h2{
+        font-size: 15px;
+    }
+}
+
+.rating-holder{
+    width: 100%;
+    height: 40%;
+    margin-top: 1%;
+    
+}
+
+.moon-holder-one{
+    width: 12%;
+    height: 100%;
+   
+    margin-left: 17%;
+    float: left;
+}@media only screen and (max-width: 992px){
+    .moon-holder-one{
+        width: 14%;
+        margin-left: 14%;
+
+    }
+}@media only screen and (max-width: 576px){
+    .moon-holder-one{
+        
+    }
+}
+.moon-holder{
+    width: 12%;
+    height: 100%;
+   
+    margin-left: 1%;
+    float: left;
+}@media only screen and (max-width: 992px){
+    .moon-holder{
+        width: 14%;
+
+    }
+}@media only screen and (max-width: 576px){
+    .moon-holder{
+        
+    }
+}
+
+.moon-icon{
+   height: 100%;
+   
+}@media only screen and (max-width: 992px){
+    .moon-icon{
+        width: 100%;
+        height: auto;
+
+    }
+}@media only screen and (max-width: 576px){
+    .moon-icon{
+        
+    }
+}
+
+

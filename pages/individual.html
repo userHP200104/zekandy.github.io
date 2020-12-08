@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--meta-information-->
+    <meta name="studentName" content="Cayla Botha">
+    <meta name="studentNumber" content="200056">
+
+    <meta name="studentName" content="Hansin Prema">
+    <meta name="studentNumber" content="200104">
+
+    <meta name="studentName" content="Luthando Lester">
+    <meta name="studentNumber" content="200203">
+
+    <meta name="Subject" content=IDV100>
+    <meta name="Lecturer" content="Mike Maynard">
+
+    <meta name="Assessment" content="Planet-Media">
+
+    <meta name="Page" content="Movie Library">
+
+    <title>Planet Media</title>
+
+    <!--All the links-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../assets/planet-media-favicon.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/individual.css">
+    <link class="watch-dis" rel="stylesheet" href="">
+
+    <script src="../js/index.js"></script>
+    <script src="../js/watch-list.js"></script>    
+    <script src="../js/individual.js"></script>    
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+
+
+            <!--Part One: Seeting Up for Mobile -->
+            <a href="../pages/landing.html"><img class="navbar-brand" src="../assets/Planet-Media-Logo-purple.svg"
+                    alt="Planet-Media-Logo"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarContent"
+                aria-controls="navBarContent" aria-expanded="false" aria-label="Toggle Nav!">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Part Two: Setting Content for Nav-->
+
+            <div class="collapse navbar-collapse" id="navBarContent">
+
+
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Top Streaming</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Highest Rated</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genres</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Anime</a>
+                            <a class="dropdown-item" href="#">Drama</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">View All Genres</a>
+                        </div>
+                        <!--end of dropdown -->
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link watch-list" href="#">My Watch List</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle profile" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-user user"></i>
+                            My Profile</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../index.html"><strong>Sign Up</strong> / Sign In</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <!--end of NavContent-->
+        </nav>
+        <!--end of nav-->
+
+        <div class="my-watch-list-box row">
+            <div class="wl-gap hidden-sm-down col-md-2"></div>
+            <div class="my-watch-list col-12 col-md-8">
+                <div class="wl-header">
+                    <div class="wl-title">
+                        Watch List
+                        <img class="wl-exit-btn" src="../assets/exit-button.svg">
+                    </div>
+                </div>
+                <div class="wl-body">
+
+                    <div class="wl-item row">
+
+                    <!--<div class="wl-item-body col-12 col-xl-6 row">
+
+                             <div class="movie-image col-5">
+                                <img class="image-block" src="https://image.tmdb.org/t/p/original">
+                            </div>
+
+                            <div class="movie-info-block col-7">
+                                <div id="movie-title" class="movie-info">
+                                    <h1>Title</h1>
+                                </div>
+                                <div id="release-date" class="movie-info">
+                                    <h4>Release Date: 2020-11-23</h4>
+                                </div>
+                                <div id="movie-genre" class="movie-info">
+                                    <h4>Genre: Action Fantasy</h4>
+                                </div>
+                                <div id="movie-rating" class="movie-info">
+                                    <h4>Rating: 6.5/10</h4>
+                                </div>
+                            </div> 
+
+                        </div> -->
+
+                        </div><!-- end of wl-item -->
+                    </div>
+                </div>
+                <div class="wl-gap hidden-sm-down col-md-2"></div>
+            </div>
+            <!-- end of my watch list box -->
+
+        <div class="parallex" style="">
+            <div class="row overlay">
+
+                <div class="gap  d-none d-sm-block col-md-1"></div>
+                <div class="individual-movie-block col-12 col-md-10">
+                    <div class="top row">
+                        <div class="movie-info-block col-12 col-lg-6 row">
+
+                            <div class="movie-poster col-12 col-md-4">
+                                <img class="poster"
+                                    src="">
+                            </div>
+
+                            <div class="movie-info col-12 col-md-8">
+                                <div class="title">
+                                    <h1 class="heading" id="movieTitle">Pulp Fiction</h1>
+                                </div>
+                                <div class="description">
+                                    <p id="movieDescription">
+                                        A burger-loving hit man, his philosophical partner, a drug-addled gangster's
+                                        moll
+                                        and a washed-up boxer converge in this sprawling, comedic crime caper. Their
+                                        adventures unfurl in three stories that ingeniously trip back and forth in time.
+                                    </p>
+                                </div>
+
+                                <div class="buttons">
+                                    <button class="btn">
+                                        <i class="fa fa-play indie-btn"></i>
+                                        Play
+                                    </button>
+                                    <button class="btn watch-list-btn">
+                                        <i class="fa fa-plus indie-btn"></i>
+                                        Add to Watch List
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-trailer col-12 col-lg-6 row">
+                            <div class="trailer-box">
+                                <iframe id="movieTrailer" width="576" height="384"
+                                    src="" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom row">
+                        <div class="credits col-md-6 col-lg-3">
+
+                            <div class="heading">
+                                <h1>Genre</h1>
+                            </div>
+                            <div class="p-style">
+                                <p id="genreName">Crime</p>
+                            </div>
+
+                            <br>
+
+
+                            <h1 class="heading bottom-info-1">Cast</h1>
+                            <div class="p-style">
+                                <p id="castMemberOne">John Travolta</p>
+                            </div>
+                            <div class="p-style">
+                                <p id="castMemberTwo">Samuel L. Jackson</p>
+                            </div>
+                            <div class="p-style">
+                                <p id="castMemberThree">Uma Thurman</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="ratings col-md-6 col-lg-3">
+                            <div class="heading">
+                                <h1>Rating</h1>
+                            </div>
+                            <div class="user-rating">
+                                <p id="movieRating">8.5 / 10</p>
+                            </div>
+
+                            <div class="heading bottom-info-2">
+                                <h1>Release Date</h1>
+                            </div>
+
+                            <div class="p-style">
+                                <p id="movieReleaseDate">1972-11-01</p>
+                            </div>
+                        </div>
+
+                        <div class="similar-movies col-md-12 col-lg-6">
+                            <div class="similar-header heading">
+                                <h1>Similar Movies:</h1>
+                            </div>
+
+                            <div class="similar-movie-poster">
+                                <img class="similar-poster" id="similarMovieOne"
+                                    src="">
+                                <div class="similar-title">
+                                    <p id="similarMovieOneName">Strange Days</p>
+                                </div>
+                            </div>
+
+                            <div class="similar-movie-poster">
+                                <img class="similar-poster" id="similarMovieTwo"
+                                    src="">
+                                <div class="similar-title">
+                                    <p id="similarMovieTwoName">Steet Kings</p>
+                                </div>
+                            </div>
+
+                            <div class="similar-movie-poster">
+                                <img class="similar-poster" id="similarMovieThree"
+                                    src="">
+                                <div class="similar-title">
+                                    <p id="similarMovieThreeName">Shaft</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--end of parallex-->
+
+    </div>
+    <!--end of container-fluid-->
+</body>
+<!--end of container-fluid-->

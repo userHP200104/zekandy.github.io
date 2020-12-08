@@ -1,0 +1,293 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, .row{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    background-color: aqua;
+    margin: 0%;
+    padding: 0%;
+    height: 100pt;
+    
+}
+.header{
+    height: 100vh;
+    background-color: rgb(169, 169, 169);
+    z-index: 9990;
+    
+}
+
+
+
+
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+.overlay{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.15);
+    z-index: 1020;
+    width:100%;
+    position: absolute;
+
+}
+
+.row{
+    background-color: brown;
+}
+
+.header-image{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+}
+
+.preview-box{
+    width:600px;
+    height:500px;
+    float: left;
+    position: absolute;
+    margin-top:350px;
+    margin-left: 60px;
+}
+
+.title{
+    width: 520px;
+    height: 50px;
+    margin-top:px;
+    color: #d3d3d3;
+}
+
+.description{
+    width: 520px;
+    height: 125px;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #dbdbdb;
+}@media only screen and (max-width: 576px){
+    .description{
+        width: 182px;
+        height: 46px;
+        background-color: darkgreen;
+    }
+}
+
+.heading-tit{
+    margin-left: 10px;
+
+}
+
+.heading-rat{
+    margin-left: 10px;
+    color: #dfdfdf;
+}
+
+
+.user-rating{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #dddddd;
+}
+
+.btn{
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #a586d6;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    margin-top:35px;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #a586d6;
+}
+
+.slider-area{
+    height: 80px;
+    width: 475px;
+    float: left;
+    margin-top: 900px;
+    margin-left: 42%;
+    position: absolute;
+}@media only screen and (max-width: 992px){
+    .slider-area{
+        margin-left: 22%;
+    }
+}
+@media only screen and (max-width: 576px){
+    .slider-area{
+        margin-left: 5%;
+        width: 275px;
+    }
+}
+
+.slider-controller{
+    width: 370px;
+    height: 50px;
+    margin-top: 10px;
+}@media only screen and (max-width: 576px){
+    .slider-controller{
+        width: 80px;
+    }
+}
+
+.previous{
+    width: 50px;
+    height: 36px;
+    float: left;
+    -webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
+  -moz-transform: rotate(180deg);        /* FF */
+  -o-transform: rotate(180deg);          /* Opera */
+  -ms-transform: rotate(180deg);         /* IE9 */
+  transform: rotate(180deg);
+
+}
+
+.next{
+    width: 50px;
+    height: 36px;
+    float: left;
+}
+
+.slider-indicator{
+    width: 210px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+.slider-indicator h3{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #d4d4d4;
+}
+
+.ui-line{
+    float: left;
+    height: 3px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: #d3d3d3;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.about-section{
+    height: auto;
+    background-image: url(../img/studyofdista\ \(1\).jpg);
+    color: white;
+}
+
+.about-intro{
+    height: auto;
+    padding-left: 5%;
+
+
+}
+
+.popular-content{
+    height: auto;
+    margin-top: 30px;
+    
+
+}
+
+.slider{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap
+}
+
+.card-item{
+    width: 275px;
+    height: auto;
+    background-color: #604a84;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-item .btn{
+    margin-left:63px;
+   
+}
+
+.card-item ul{
+    list-style: none;
+}
+
+.card-item p{
+    margin-bottom: 20px;
+}
+
+.card-item li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.card-item img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.slider::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .slider::-webkit-scrollbar-thumb {
+    background:none;
+    border-radius: 10px;
+  }
+  .slider::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .slider-controller{
+        height: 30px;
+        width: 475px;
+        float: left;
+        margin-left: 90px;
+    }
+
+}
+
+/* Phone */
+
+@media only screen and (max-width: 576px) {
+    .slider-controller{
+        height: 30px;
+        width: 475px;
+        float: left;
+        margin-left: 90px;
+    }
+
+}
+

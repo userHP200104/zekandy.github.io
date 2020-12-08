@@ -1,0 +1,57 @@
+.navbar{
+    background-color: white;
+}
+
+#navBarContent{
+    margin-right: 32px;
+}
+
+a{
+    color: white;
+}
+
+.overlay{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.15);
+    z-index: 1020;
+    width:100%;
+
+}
+
+.user{
+    width: 26px;
+    text-align: center;
+    margin-top: 3px;
+    float: left;
+}
+
+.search-bar-box{
+    width: 100px;
+    height: 20px;
+}
+
+.search-bar{
+    margin-top: 10px;
+    float: left;
+}
+
+.btn{
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #804ED5;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    margin-top:35px;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #a586d6;
+}
+
+
+

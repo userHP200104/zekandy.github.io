@@ -1,0 +1,359 @@
+h1{
+    font-family: "MADE Evolve Sans EVO";
+}
+
+p{
+    font-family:'Montserrat', sans-serif;
+}
+
+.parallex{
+    width: 100%;
+    height: 1080px;
+    margin-top: 60px;
+    padding: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.overlay{
+    width: 100%;
+    height: 1080px;
+    background-color: hsla(261, 45%, 20%, 0.502);
+    overflow: hidden;
+}
+
+.individual-movie-block{
+    height: 800px;
+    margin-top: 80px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    border: 3px solid white;
+    border-radius: 25px;
+    overflow: scroll;
+}
+
+.movie-poster{
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+    /* background-color: orangered; */
+    
+}
+
+.poster{
+    width: 200px;
+    height: 300px;
+    /* background-color: turquoise; */
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+.indie-btn{
+    margin-right: 10px;
+}
+
+.btn{
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.movie-info-block{
+    height: 400px;
+    /* background-color: red; */
+}
+
+.movie-trailer{
+    height: 400px;
+    /* background-color: lime; */
+}
+
+.credits{
+    height: 300px;
+    padding-top: 35px;
+    /* background-color: blue; */
+}
+
+.heading{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.p-style{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.ratings{
+    height: 300px;
+    padding-top: 35px;
+    /* background-color: darkcyan; */
+}
+
+.user-rating{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.bottom-info-1{
+    margin-top: 50px;
+}
+
+.bottom-info-2{
+    margin-top: 30px;
+}
+
+.title{
+    width: 520px;
+    height: 50px;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+.description{
+    width: 520px;
+    height: 125px;
+    margin-top: 35px;
+    margin-left: 10px;
+    overflow: scroll;
+}
+
+.trailer-box{
+    width: 576px;
+    height: 384px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 25px;
+    border: 3px solid white;
+    /* background-color: pink; */
+    overflow: hidden;
+}
+
+.similar-movies{
+    height: 300px;
+    padding-top: 35px;
+    /* background-color: magenta; */
+}
+
+.similar-movie-poster{
+    width: 128px;
+    height: 192px;
+    margin-left: 80px;
+    /* background-color: orangered; */
+    float: left;
+}
+
+.similar-poster{
+    width: 128px;
+    height: 192px;
+    /* background-color: turquoise; */
+    border: 3px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.similar-poster:hover{
+    border: 3px solid #804ED5;
+}
+
+.similar-title{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.similar-header{
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 768px) {
+    
+    body{
+        overflow: hidden;
+        color: white;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+    
+    body{
+        overflow: hidden;
+        color: white;
+    }
+
+    .individual-movie-block{
+        height: 890px;
+        margin-top: 40px;
+        overflow: scroll;
+    }
+
+    .movie-info-block{
+        padding-top: 15px;
+    }
+
+    .trailer-box{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+
+
+    .credits{
+        padding-top: 5px;
+    }
+
+    .ratings{
+        padding-top: 5px;
+    }
+
+    .bottom-info-1{
+        margin-top: 0px;
+    }
+
+    .bottom-info-2{
+        margin-top: 50px;
+    }
+
+    .similar-movies{
+        padding-top: 0;
+    }
+
+    .similar-header{
+        margin-top: 0;
+        margin-left: 150px;
+        margin-bottom: 10px;
+    }
+
+    .similar-movie-poster{
+        margin-left: 40px;
+    }
+}
+
+/* Phone */
+
+@media only screen and (max-width: 576px) {
+
+    body{
+        overflow: scroll;
+        color: white;
+    }
+
+    .parallex{
+        height: auto;
+    }
+
+    .overlay{
+        height: auto;
+    }
+
+    .individual-movie-block{
+        width: auto;
+        height: 812px;
+        max-height: 1000px;
+        border: none;
+        border-radius: 0px;
+        padding-top: 15px;
+        margin-top: 0;
+
+    }
+
+    .movie-info-block{
+        height: 1050px;
+    }
+
+    .poster{
+        margin-left: 50px;
+    }
+
+    .title{
+        margin-top: -180px;
+        text-align: center;
+    }
+
+    .description{
+        width: 350px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .btn{
+        width: 225px;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .movie-trailer{
+        height: 220px;
+        margin-top: -180px;
+    }
+
+    .trailer-box{
+        width: 288px;
+        height: 192px;
+        margin-left: 25px;
+        
+    }
+
+    .credits{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .ratings{
+        margin-top: 0px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .bottom-info-1{
+        margin-top: -10px;
+    }
+
+    .bottom-info-2{
+        margin-top: -10px;
+    }
+
+    .heading{
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #movieTitle{
+        width: 300px;
+        overflow: scroll;
+    }
+
+    .similar-movies{
+        margin-top: -50px;
+    }
+
+    .similar-header{
+        margin-top: 0;
+        margin-left: -6px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .similar-movie-poster{
+        float: none;
+        margin-bottom: 40px;
+        margin-left: 95px;
+    }
+
+    .similar-title{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

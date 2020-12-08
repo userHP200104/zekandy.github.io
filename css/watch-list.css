@@ -1,0 +1,205 @@
+h2, h3, h4, h5, h6, a{
+    font-family:'Montserrat', sans-serif;
+}
+
+h1{
+    font-weight: 500;
+    font-family: 'MADE Evolve Sans EVO', sans-serif;
+}
+
+h4{
+    font-weight: 400;
+    color: white;
+}
+
+h6{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.wl-item-body{
+    height: 300px;
+}
+
+.my-watch-list-box{
+    background-color: hsla(0, 0%, 0%, 0.75);
+    width: 100%;
+    height: 1080px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.my-watch-list{
+    height: 800px;
+    /* background-color: red; */
+    padding-right: 0;
+    padding-left: 0;
+    border: solid white 5px;
+    border-radius: 15px;
+}
+
+
+.wl-header{
+    height: 70px;
+    background-color: #604a84;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: solid white 5px;
+}
+
+.wl-title{
+    color: #fff;
+    text-align: center;
+    font-family: 'MADE Evolve Sans EVO', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    padding-top: 5px;
+}
+
+.wl-exit-btn{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.wl-body{
+    height: 720px;
+    background-color: hsla(180, 33%, 70%, 0.7);
+    border-radius: 0px 0px 10px 10px;
+    overflow: scroll;
+}
+
+.movie-image{
+    /* background-color: red; */
+    height: 300px;
+}
+
+.image-block{
+    width: 160px;
+    height: 240px;
+    margin-top: 25px;
+    margin-left: 5px;
+    border: solid white 5px;
+    border-radius: 15px;
+    /* background-color: magenta; */
+}
+
+.image-border{
+    width: 160px;
+    height: 240px;
+    margin-top: 25px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.movie-info-block{
+    /* background-color: lime; */
+    height: 300px;
+    padding-top: 25px;
+}
+
+.movie-title{
+    height: 75px;
+    overflow: hidden;
+    font-size: 35px;
+    color: white;
+
+}
+
+.secondary-text{
+    margin-top: 10px;
+}
+
+.wl-itme-break{
+    /* background-color: blue; */
+    height: 30px;
+}
+
+.remove-btn{
+    width: 130px;
+    height: 45px;
+    background-color: #c;
+    color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.remove-btn:hover{
+    background-color: #fff;
+    color: #9999cc;
+
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 768px) {
+
+    .my-watch-list{
+        height: 800px;
+        margin-top: 100px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .wl-gap{
+        /* background-color: turquoise; */
+        height: 800px;
+    }
+
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+    .movie-info-block{
+        padding-left: 40px;
+        padding-right: 0;
+    }
+
+    .movie-title{
+        font-size: 30px;
+    }
+
+    .secondary-text{
+        font-size: 20px;
+    }
+}
+
+/* Phone */
+
+@media only screen and (max-width: 576px) {
+
+    .my-watch-list{
+        height: 800px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .wl-gap{
+        /* background-color: turquoise; */
+        height: 0px;
+    }
+
+    .my-watch-list-box{
+        background-color: hsla(0, 0%, 0%, 0.75);
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        z-index: 9999;
+    }
+
+    .wl-body{
+        height: 141%;
+        background-color: #99cccc;
+
+    }
+
+    .movie-title{
+        height: 65px;
+    }
+}
